@@ -1,0 +1,13 @@
+.card_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 0px;
+    margin: 10px;
+}
+.card_block > h1{
+    margin: 0;
+}
