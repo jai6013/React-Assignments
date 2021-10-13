@@ -1,0 +1,32 @@
+.product_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: whitesmoke;
+    border-radius: 10px;
+    background-color: white;
+}
+.product_block > div{
+    margin: 10px;
+    text-align: left;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plusMinus_block{
+    margin: 10px;
+    border: 1px solid rgb(204, 134, 134);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}

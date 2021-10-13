@@ -1,0 +1,12 @@
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.criteria_block{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: center;
+}

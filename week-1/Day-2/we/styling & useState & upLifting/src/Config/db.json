@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "first_name": "Jaimie",
+    "last_name": "Sapsed",
+    "email": "jsapsed0@ftc.gov",
+    "gender": "Non-binary",
+    "avatar": "https://robohash.org/voluptatemnesciuntnulla.png?size=100x100&set=set1",
+    "isSelected": true
+  },
+  {
+    "id": 2,
+    "first_name": "Valencia",
+    "last_name": "O'Dowling",
+    "email": "vodowling1@go.com",
+    "gender": "Genderfluid",
+    "avatar": "https://robohash.org/sunteaquequos.png?size=100x100&set=set1",
+    "isSelected": true
+  },
+  {
+    "id": 3,
+    "first_name": "Heath",
+    "last_name": "Dicey",
+    "email": "hdicey2@jugem.jp",
+    "gender": "Female",
+    "avatar": "https://robohash.org/corruptidoloremquequia.png?size=100x100&set=set1",
+    "isSelected": true
+  },
+  {
+    "id": 4,
+    "first_name": "Stanton",
+    "last_name": "Kincla",
+    "email": "skincla3@github.io",
+    "gender": "Non-binary",
+    "avatar": "https://robohash.org/corruptinonaspernatur.png?size=100x100&set=set1",
+    "isSelected": false
+  },
+  {
+    "id": 5,
+    "first_name": "Yul",
+    "last_name": "Schoroder",
+    "email": "yschoroder4@phoca.cz",
+    "gender": "Bigender",
+    "avatar": "https://robohash.org/remetconsequatur.png?size=100x100&set=set1",
+    "isSelected": false
+  },
+  {
+    "id": 6,
+    "first_name": "Sammy",
+    "last_name": "Knibley",
+    "email": "sknibley5@clickbank.net",
+    "gender": "Non-binary",
+    "avatar": "https://robohash.org/velfugiatest.png?size=100x100&set=set1",
+    "isSelected": true
+  }
+]

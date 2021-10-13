@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.App > p{
+  padding: 2rem;
+  margin: 5em;
+}

@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2,20%);
+  justify-content: center;
+}
+.heading{
+  color: brown;
+  text-align: center;
+}
