@@ -27,7 +27,12 @@ export const Products = (props) =>{
                             <div>{count}</div> 
                             {
                                 count !== 0 ? 
-                                <div onClick={()=>setCount(count-1)}>-</div> : null
+                                <div onClick={()=>{
+
+                                    setCount(count-1)
+                                    handleCount(count - 1)
+                                }
+                                }>-</div> : null
                             }  
                         </div>
                             {item.is_available? <button className={styles.hs}>High Stock</button> : <button className={styles.ls}>Low Stock</button>}
