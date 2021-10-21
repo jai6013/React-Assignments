@@ -1,0 +1,17 @@
+.App {
+  display: grid;
+  grid-template-columns: 20% 20%;
+  justify-content: center;
+  text-align: center !important;
+}
+.heading{
+  text-align: center;
+  color: skyblue;
+}
+
+.TodoList{
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+}
