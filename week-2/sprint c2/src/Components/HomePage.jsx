@@ -6,7 +6,6 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
-import { Link } from "@mui/material";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -56,9 +55,7 @@ const HomePage = () => {
                 {
                     data && 
                     data.map((item) =>
-                    <Link to ={`/${item.id}`}>
-                         <MediaCard  id = {item.id} characterId = {item.id} characterData = {item}/>
-                    </Link>
+                         <MediaCard  id = {item.id} characterData = {item}/>
                     )
                 }
             </Item>

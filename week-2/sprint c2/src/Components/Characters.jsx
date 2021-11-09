@@ -4,11 +4,11 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Link } from '@mui/material';
+import { Button, Link } from '@mui/material';
 
 export default function MediaCard({characterData, characterId}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} id = {characterData.id}>
       <CardMedia
         component="img"
         height="140"
@@ -24,7 +24,9 @@ export default function MediaCard({characterData, characterId}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Link to ={`/${characterId}`}>Show more</Link>
+        <Button href= {`/${characterData.id}`} size="small" color="primary">
+          Show More
+        </Button>
       </CardActions>
     </Card>
   );

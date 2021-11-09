@@ -9,7 +9,6 @@ import {useParams} from 'react-router-dom'
 
 export default function ActionAreaCard() {
   const params = useParams();
-  console.log(params)
   const [characterData, setCharData] = React.useState({});
   const showData = () => {
     var config = {
@@ -17,10 +16,10 @@ export default function ActionAreaCard() {
       url: `https://rickandmortyapi.com/api/character/${params.id}`,
       headers: {},
     };
-
+    
     axios(config)
-      .then(function (response) {
-        setCharData(response.data);
+    .then(function (response) {
+      setCharData(response.data);
       })
       .catch(function (error) {
         console.log(error);
@@ -28,10 +27,10 @@ export default function ActionAreaCard() {
   };
   React.useEffect(()=>{
       showData()
-  },[])
+  },[params.id])
   return (
     <>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 345 , margin:"auto"}} >
         <CardActionArea>
           <CardMedia
             component="img"
@@ -45,6 +44,12 @@ export default function ActionAreaCard() {
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Status : {characterData.status}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Species : {characterData.species}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Gender : {characterData.gender}
             </Typography>
           </CardContent>
         </CardActionArea>
